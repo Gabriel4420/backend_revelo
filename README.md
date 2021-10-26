@@ -1,5 +1,7 @@
 # 📖 DOCUMENTAÇÃO 📖
 
+API para o controle do estoque e venda de uma loja de produtos diversos, relacionada ao desafio da empresa comunik.me, invitada pela plataforma revelo.
+
 Logo abaixo, segue as rotas da api que funcionam
 
 #### ⚠️ IMPORTANTE ⚠️
@@ -15,6 +17,21 @@ POST >> /login >> JSON-BODY
 | POST | Add User | '/users' | 
 | POST | Add Product | '/product' | 
 | PATCH |Update Product | '/product/:id' | 
+
+## 👨‍💻️ Tecnogias utilizadas
+
+O projeto foi desenvolvido utilizando a seguinte tecnologia:
+
+- [NodeJS](https://node.com.br)
+
+### Padronização de código
+ 
+ - [Prettier](https://prettier.io/)
+
+ ### IDE
+
+  - [Visual Studio Code](https://code.visualstudio.com/)
+
 
 ## 📦️ Como utilizar o projeto
 
