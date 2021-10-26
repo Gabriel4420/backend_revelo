@@ -1,4 +1,4 @@
-# 🕮 DOCUMENTAÇÃO 🕮
+# 📖 DOCUMENTAÇÃO 📖
 
 Logo abaixo, segue as rotas da api que funcionam
 
@@ -43,7 +43,7 @@ Para instalar as dependências e iniciar o projeto, você pode utilizar o yarn o
   ❯ npm install 
 
   # Iniciar o projeto
-  ❯ npm start
+  ❯ npm dev
 ```
 <h4 align="center">
   Feito com ❤️ por Gabriel Rodrigues 👋️ <a href="mailto:gabriel_rodrigues_perez@hotmail.com">Entre em contato!</a>
