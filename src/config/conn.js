@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-
+require('dotenv/config')
 class Connection {
   constructor() {
     this.DbConnectionMongoDB()
@@ -7,7 +7,7 @@ class Connection {
 
   DbConnectionMongoDB() {
     this.mongoDBConnection = mongoose
-      .connect('mongodb+srv://gabriel:442018@cluster0.hfg3u.mongodb.net/nodejs?retryWrites=true&w=majority', {
+      .connect(`${process.env.MONGO_URL}`, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       })
