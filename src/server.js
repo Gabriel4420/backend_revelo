@@ -1,4 +1,5 @@
 const app = require('./app')
+require('./config/conn')
 
 var PORT = process.env.PORT || 8080
 
