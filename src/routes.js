@@ -6,7 +6,7 @@ const AuthMiddleware = require('./app/Middlewares/AuthMidleware')
 const routes = new Router()
 
 routes.post('/user', UserController.store)
-routes.get('/users',  AuthMiddleware,UserController.show)
+routes.get('/users', AuthMiddleware,UserController.show)
 routes.get('/products', AuthMiddleware, ProductController.show)
 routes.post('/product', AuthMiddleware, ProductController.store)
 routes.post('/login', LoginController.index)
